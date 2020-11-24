@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <title> Tabelas </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="estilo-tabela.css"><!--Link para o CSS-->
+    </head>
+    <body>
+        <!-- Para criar tabelas usa-se a TAG table -->
+        <table>
+            <!-- Título da tabela -->
+            <caption> Músicas </caption> 
+            <colgroup> <!-- Utiliza para dar a mesma class para todo o grupo, linha e coluna-->
+                <col class="autor">
+                <col class="gravadora"> 
+                <col class="cantor">
+                <col class="musica">
+            </colgroup>
+            <!-- Para criar uma linha da tabela usa-se o <tr> -->
+            <thead> <!-- Cabeçario da Tabela -->
+                <tr>
+                    <th> Gravadora </th> <!-- Título da segunda coluna -->
+                    <th> Cantor </th> <!-- Título da terceira coluna -->
+                    <th> Música </th> <!-- Título da quarta coluna -->
+                </tr>
+            </thead>
+            <tbody> <!-- Conteúdo da tabela -->
+                <tr>
+                    <td> Sony </td> <!-- Corresponde ao segundo <th> -->
+                    <td> Gustavo Lima </td> <!-- Corresponde ao terceiro <th> -->
+                    <td> 
+                        <audio controls>
+                            <source src="audio/gustavo.mp3" type="audio/mpeg">
+                        </audio>
+                    </td> <!-- Corresponde ao quarto <th> --> 
+                </tr>
+                <tr>
+                    <td> Tres Colinas </td> <!-- Corresponde ao segundo <th> -->
+                    <td> Jorge e Mateus  </td> <!-- Corresponde ao terceiro <th> -->
+                    <td> 
+                        <audio controls>
+                            <source src="audio/jorge.mp3" type="audio/mpeg">
+                        </audio> 
+                    </td> <!-- Corresponde ao quarto <th> --> 
+                </tr>
+                <tr>
+                    <td> Hertz</td> <!-- Corresponde ao segundo <th> -->
+                    <td> Drake  </td> <!-- Corresponde ao terceiro <th> -->
+                    <td> 
+                        <audio controls>
+                            <source src="audio/drake.mp3" type="audio/mpeg">
+                        </audio> 
+                    </td> <!-- Corresponde ao quarto <th> --> 
+                </tr>
+                <tr>
+                    <td> Clube </td> <!-- Corresponde ao segundo <th> -->
+                    <td> Matue </td> <!-- Corresponde ao terceiro <th> -->
+                    <td> 
+                        <audio controls>
+                            <source src="audio/matue.mp3" type="audio/mpeg">
+                        </audio> 
+                    </td> <!-- Corresponde ao quarto <th> --> 
+                </tr>
+                <tr>
+                    <td> All </td> <!-- Corresponde ao segundo <th> -->
+                    <td> Sidoka </td> <!-- Corresponde ao terceiro <th> -->
+                    <td> 
+                        <audio controls>
+                            <source src="audio/sidoka.mp3" type="audio/mpeg">
+                        </audio> 
+                    </td> <!-- Corresponde ao quarto <th> --> 
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

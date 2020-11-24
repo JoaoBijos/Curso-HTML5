@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <title> Teste Geral </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--Link para o CSS-->
+    <link rel="icon" href="img/cloudMed.png">
+</head>
+
+<body>
+    <h1 class="titulo"> Teste Geral </h1>
+    <h2 class="titulos"> Textos </h2>
+    <div class="texto">
+        <h2> Aleatório </h2>
+        <!-- Criando um paragrafo -->
+        <!-- Usa-se o span para fazer um destaque no texto -->
+        <p>
+            Lorem ipsum vel facilisis tempus nulla eu consectetur risus tortor,
+            ut curabitur fusce consectetur pellentesque dictum tortor ultricies,
+            neque porttitor sollicitudin dolor massa at volutpat id. et sollicitudin
+            lacinia etiam aptent adipiscing donec, ultrices maecenas netus fusce
+            sodales venenatis, <span class="span">vitae arcu eget leo fringilla</span>. vel purus volutpat
+            vivamus maecenas risus elementum aliquet enim, himenaeos imperdiet ipsum
+            porta mollis arcu aenean aliquet, suspendisse mauris conubia ornare ligula
+            cras pulvinar. egestas magna massa proin orci conubia curabitur maecenas
+            donec aliquet sapien tortor, <mark class="mark">torquent per donec velit etiam augue dui
+                class consectetur eleifend. </mark>
+        </p>
+    </div><br><br>
+    <div class="global">
+        <!-- Criei uma DIV para guardar outras e conseugir alinhar elas -->
+        <h2 class="titulos"> iFrame </h2>
+        <div tabindex="4" id="iFrame">
+            <!-- DIV do iFrame da CloudMed -->
+            <h4> Outro Site </h4>
+            <iframe src="https://cloudmed.io/" width="500px" height="500px"></iframe> <!-- Link CloudMed -->
+        </div>
+        <div tabindex="1" id="iFrame-cadastro">
+            <!-- DIV do iFrame para o cadastro -->
+            <h4> Tela com Cadastro </h4>
+            <class>
+                <iframe src="forms/formularios.html" width="500px" height="500px"></iframe> <!-- Link para Cadastro -->
+            </class>
+        </div>
+        <div tabindex="2" id="iFrame-tabela">
+            <!-- DIV do iFrame para o cadastro -->
+            <h4> Tabelas </h4>
+            <class>
+                <iframe src="table/tabelas.html" width="495px" height="450px"></iframe> <!-- Link para Cadastro -->
+            </class>
+        </div>
+        <div tabindex="3" id="iFrame-video">
+            <!-- DIV do iFrame para o cadastro -->
+            <h4> Vídeo </h4>
+            <class>
+                <iframe src="video/video.html" width="710px" height="450px"></iframe> <!-- Link para Cadastro -->
+            </class>
+        </div>
+    </div>
+    <div class="lista">
+        <!-- Criei uma DIV para guardar outras e conseugir alinhar elas -->
+        <h2 class="titulos"> Listas </h2>
+        <div class="direita">
+            <dl class="lista-3">
+                <!-- Lista com comentários nos itens -->
+                <h3> CloudMed </h3>
+                <dt> Aspira </dt>
+                <dd> Cabelo Diferente </dd>
+                <dt> Thiago </dt>
+                <dd> Me contratou </dd>
+                <dt> Wesley </dt>
+                <dd> Vai ser meu mentor </dd>
+                <dt> Pedrão </dt>
+                <dd> Cuida de todos </dd>
+            </dl>
+        </div>
+        <div class="esquerda">
+            <ul class="lista-1">
+                <!-- Lista não ordenada -->
+                <li> Aspira </li>
+                <li> Thiago </li>
+                <li> Wesley </li>
+                <li> Pedrão </li>
+            </ul>
+            <ol class="lista-2">
+                <!-- Lista ordenada -->
+                <li> Aspira </li>
+                <li> Thiago </li>
+                <li> Wesley </li>
+                <li> Pedrão </li>
+            </ol>
+        </div>
+    </div>
+    <div class="imagem">
+        <h2 class="titulos"> Imagens </h2>
+        <figure>
+            <img src="img/eliezer.jpg" width="400px" alt="Papagaio" title="Papagaio">
+            <!-- ALT serve para quando a internet do usuário não estiver muito boa -->
+            <!-- Colocando uma legenda na foto -->
+            <!-- Podendo ela ser antes ou depois da imagem -->
+            <figcaption> Chefe / Eliézer </figcaption>
+        </figure>
+    </div>
+    <h2 class="titulos"> Details </h2>
+    <div>
+        <details>
+            <summary> Time CloudMed (clica aqui)</summary>
+            <ul>
+                <li> Eliézer </li>
+                <li> Águeda </li>
+                <li> Pedro </li>
+                <li> Thiago </li>
+                <li> Wesley </li>
+                <li> Gabriel </li>
+                <li> Lucas </li>
+                <li> Ian </li>
+                <li> Régis </li>
+                <li> Renata </li>
+                <li> João Pedro </li>
+            </ul>
+        </details>
+    </div><br><br>
+    <h2 class="titulos"> Object </h2>
+    <h4> PDF - Teste Estágio </h4>
+    <div class="object">
+        <object width="600px" height="700px" data="pdf/InstrucoesTesteJoaoPedro.pdf"></object>
+    </div><br><br>
+    <h2 class="titulos"> SVG </h2>
+    <svg class="svg" width="300" height="165">
+        <!-- Retirei o aruivo SVG de um site -->
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+        <path style="fill:#F2F2F2;" d="M512,256c0,82.317-38.86,155.564-99.234,202.397C369.455,492.001,315.068,512,256,512
+        c-58.535,0-112.473-19.644-155.596-52.705C39.361,412.515,0,338.85,0,256C0,114.615,114.615,0,256,0S512,114.615,512,256z"/>
+        <path style="fill:#E64C18;" d="M441.992,119.474l-29.226,338.923C369.455,492.001,315.068,512,256,512
+        c-58.535,0-112.473-19.644-155.596-52.705L71.105,119.474H441.992z"/>
+        <polygon style="fill:#F36518;" points="256.546,151.249 256.546,504.167 378.46,469.75 405.655,151.249 "/>
+        <polygon style="fill:#FFFFFF;" points="140.903,195.528 152.858,337.091 311.761,337.091 306.562,395.568 256.549,409.112 
+        204.46,394.52 203.152,358.061 154.631,358.061 160.705,429.941 256.549,457.028 352.392,429.941 364.27,289.295 196.928,289.295 
+        192.775,243.456 192.774,243.454 368.226,242.535 372.194,195.528 "/>
+        <polygon points="151.159,16.796 151.159,41.117 127.921,41.117 127.921,16.796 106.303,16.796 106.303,86.513 127.921,86.513 
+        127.921,63.815 151.159,63.815 151.159,86.513 172.777,86.513 172.777,16.796 "/>
+        <polygon points="249.521,16.796 183.045,16.796 183.045,41.117 204.663,41.117 204.663,87.055 227.903,87.055 227.903,41.117 
+        249.521,41.117 "/>
+        <polygon points="373.284,64.895 373.284,17.337 350.044,17.337 350.044,64.895 350.044,87.055 373.284,87.055 406.79,87.055 
+        406.79,64.895 "/>
+        <polygon points="314.914,17.337 298.702,42.197 282.488,17.337 259.249,17.337 259.249,87.055 282.488,87.055 282.488,52.465 
+        298.702,77.327 314.914,52.465 314.914,87.055 338.154,87.055 338.154,17.337 "/>
+        </svg>
+    </svg>
+    <br><br>
+    <footer>
+        <!-- Colocando imagem com um link para o site da CloudMed -->
+        <div class="img-footer">
+            <a href="https://www.instagram.com/cloudmedbr/" target="_blank">
+                <img src="img/instagram.png" width="60px"></a>
+            <a href="https://cloudmed.io/" target="_blank">
+                <img class="img-cloud" src="img/cloudMed.png" width="60px"></a>
+            <a href="https://pt-br.facebook.com/cloudmedtecnologia" target="_blank">
+                <img src="img/facebook.png" width="60px"></a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>

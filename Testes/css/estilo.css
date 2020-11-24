@@ -1,0 +1,132 @@
+body{
+    background-color: rgb(150, 150, 150);
+    margin:0;
+}
+
+footer{
+    background-color: rgb(105, 104, 104);
+    height: 150px;
+    align-items: center;
+}
+
+#iFrame-cadastro{
+    position: relative;
+    float: left;
+    margin-left: 150px;
+}
+
+#iFrame-tabela{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+#iFrame-video{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+#iFrame{
+    position: relative;
+    float: left;
+    margin-left: 20px;
+}
+
+.img-footer{
+    padding-left: 1000px;
+    padding-top: 45px;
+}
+
+.titulo{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.texto{
+    background-color: rgb(89, 102, 102);
+    padding: 7px;
+}
+
+.span{
+    background-color: rgb(133, 133, 133);
+    color: rgb(0, 0, 0);
+}
+
+.lista-1{
+    background-color:rgb(109, 117, 117);
+    width: 100px;
+    padding: 20px;
+}
+
+.lista-2{
+    background-color: rgb(98, 109, 109);
+    width: 100px;
+    padding: 20px;
+}
+
+.lista-3{
+    background-color: rgb(89, 102, 102);
+    width: 200px;
+    padding: 20px;
+}
+
+.esquerda{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+
+.direita{
+    position: relative;
+    float: left;
+    margin-left: 50px;
+}
+
+.lista:before,
+.lista:after{
+    content: "";
+    display: table;
+}
+.lista:after{
+    clear: both;
+}
+
+.global:before,
+.global:after{
+    content: "";
+    display: table;
+}
+.global:after{
+    clear: both;
+}
+
+.titulos{
+    text-align: center;
+    background-color: #706e6e;
+    padding: 10px;
+}
+
+.formulario{
+    background-color: rgb(75, 74, 74);
+    color: white;
+}
+
+.mark{
+    background-color: darkslategray;
+}
+
+.svg{
+    background-color: #ccc;
+}
+
+
+.svg rect{
+    fill: blue;
+    stroke: red;
+    stroke-width: 3;
+    opacity: 0.5;
+}
